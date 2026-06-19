@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "TTLakes";
+
+  src: url("./TTLakes-ExtraLight\ \(1\).ttf");
+
+  font-weight: normal;
+
+}
+
+* {
+
+  box-sizing: border-box;
+
+  font-family: "TTLakes";
+
+ 
+
+  margin:0;
+
+  padding:0;
+
+}
+
+body {
+
+    min-width: 320px;
+
+    max-width: 320px;
+
+    width: 100%;
+
+    margin: 0 auto;
+
+}
+
+.webcore{
+
+    box-shadow: 15px 5px 10px rgb(100, 99, 99, 0.2);
+
+    height: 1024px;
+
+}
+
+.menu__web {
+
+    display: flex;
+
+    gap: 20px; 
+
+    align-items: center;
+
+    margin-bottom: 24px;
+
+    margin-top: 0;
+
+    margin-left: 0;
+
+    margin-right: 0;
+
+    padding: 24px;
+
+    background-color: #FFFFFF;
+
+}
+
+.logo_web1 {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+
+    background-color: #FFFFFF;
+
+}
+
+.logo__copy {
+
+    transition: opacity 0.3s ease; 
+    background: transparent;
+}
+
+.logo__copy:hover {
+
+    opacity: 0.7;
+
+}
+.logo_1{
+    background-color: transparent;
+}
+
+.search{
+
+    margin-left: auto;
+
+}
+
+.menu {
+
+    display: flex;
+
+    gap: 32px;
+
+    padding: 0 16px;
+
+    margin: 0;
+
+    list-style: none;
+
+    overflow-x: auto;
+
+    margin-bottom: 200px;
+
+}
+
+/*.webcore::selection { background-color: #e6e6e7; }*/
+
+.menu::selection { background-color: #e6e6e7; }
+
+.menu_item {
+
+    display: block;
+
+    padding: 8px 16px;
+
+    margin-bottom: 32px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    line-height: 24px;
+
+    color: #262627;
+
+    text-decoration: none;
+
+    white-space: nowrap;
+
+}
+
+.menu_item:hover {
+
+    background-color: white;
+
+    color:#ababad;
+
+    
+
+}
+
+.divider{
+
+    border-left: 4px solid #41f6d7;
+
+}
+
+.web_footer {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 24px;
+
+  margin-top: auto;
+
+}
+
+.web_footer:hover {
+
+    background-color: white;
+
+    color:#ababad;
+
+    
+
+}
+
+.logo_web2 {
+
+  display: flex;
+
+  gap: 16px;
+
+}
+
+.mail_phone {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+
+  transition: opacity 0.3s ease;
+
+}
+
+.mail_phone:hover {
+
+  opacity: 0.7;
+
+}
+
+.email {
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  text-decoration: none; 
+
+  color: #0e0f11;
+
+}
+
+.phone {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+  letter-spacing: 2px;
+
+  text-decoration: none; 
+
+  color: #0e0f11;
+
+}
+
+.languages {
+
+  display: flex;
+
+  gap: 12px;
+
+  margin-bottom: 25px;
+
+}
+
+.lang {
+
+  color: #111111;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  
+
+}
+
+.lang:hover {
+
+    background-color: white;
+
+    color:#ababad;
+
+}
