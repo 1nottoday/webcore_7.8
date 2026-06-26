@@ -13,8 +13,6 @@
 
   font-family: "TTLakes";
 
-  font-weight: bold; 
-
   color: #0e0f11;
 
   margin:0;
@@ -23,27 +21,24 @@
 
 }
 
-body {
+
+
+.webcore{
+
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
 
     min-width: 320px;
 
     max-width: 320px;
 
-    width: 100%;
-
-    margin: 0 auto;
-
-    margin-left: 0;
+    width: 100vh;
+    height: 100vh;
 
     margin-right: auto;
- 
-}
 
-.webcore{
+    display: flex;
 
-    box-shadow: 15px 24px 10px rgb(100, 99, 99, 0.2);
-
-    height: 1024px;
+    flex-direction: column;
 
 }
 
